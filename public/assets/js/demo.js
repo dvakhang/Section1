@@ -196,7 +196,7 @@ $().ready(function () {
             api.openPopup('facebook');
         },
         template: '<i class="fa fa-facebook-square"></i> &middot; 50',
-        url: 'http://demos.creative-tim.com/material-dashboard-pro/examples//dashboard'
+        url: 'http://localhost:3000/dashboard'
     });
 
 

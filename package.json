@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Khang.Dong",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1",
+    "node-sass-middleware": "^0.11.0",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-rc.2"
+  }
 }
