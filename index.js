@@ -19,7 +19,7 @@ const sassOpts = {
 
 app.set("view engine", "pug");
 
-mongodb.connect(function(err, status){
+//mongodb.connect(function(err, status){
 
     app.get("/hello/:id", function(req, res){
     mongodb.model("Product").find(function(err, product){
@@ -58,4 +58,4 @@ mongodb.connect(function(err, status){
         console.log("Running at port: 3000");   
     });
 
-});
+//});
